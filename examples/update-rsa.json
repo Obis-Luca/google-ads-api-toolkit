@@ -1,0 +1,38 @@
+{
+  "customer_id": "1234567890",
+  "operations": [
+    {
+      "update": {
+        "resource_name": "customers/1234567890/ads/222",
+        "final_urls": [
+          "https://example.com/product"
+        ],
+        "responsive_search_ad": {
+          "headlines": [
+            {
+              "text": "Customer Service Chatbot",
+              "pinned_field": "HEADLINE_1"
+            },
+            {
+              "text": "Answer Common Questions"
+            },
+            {
+              "text": "Try Our Website Assistant"
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Answer website questions using your business information."
+            },
+            {
+              "text": "Upload your information and test your assistant before publishing."
+            }
+          ],
+          "path1": "service",
+          "path2": "chatbot"
+        }
+      },
+      "update_mask": "finalUrls,responsiveSearchAd.headlines,responsiveSearchAd.descriptions,responsiveSearchAd.path1,responsiveSearchAd.path2"
+    }
+  ]
+}

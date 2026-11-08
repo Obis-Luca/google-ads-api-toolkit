@@ -1,0 +1,4 @@
+SELECT campaign.id, campaign.name, campaign.status,
+       campaign.bidding_strategy_type, campaign.campaign_budget
+FROM campaign
+WHERE campaign.status != 'REMOVED'

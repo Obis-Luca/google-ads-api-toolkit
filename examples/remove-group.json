@@ -1,0 +1,10 @@
+{
+  "customer_id": "1234567890",
+  "operations": [
+    {
+      "ad_group_operation": {
+        "remove": "customers/1234567890/adGroups/111"
+      }
+    }
+  ]
+}

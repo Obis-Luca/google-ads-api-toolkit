@@ -1,0 +1,46 @@
+{
+  "final_url": "https://example.com/product",
+  "ad_groups": [
+    {
+      "name": "Customer Service",
+      "keywords": [
+        {
+          "text": "customer service chatbot",
+          "match_type": "EXACT"
+        }
+      ],
+      "headlines": [
+        "Customer Service Chatbot",
+        "Answer Common Questions",
+        "Try Our Website Assistant"
+      ],
+      "descriptions": [
+        "Answer website questions using your business information.",
+        "Upload your information and test your assistant before publishing."
+      ],
+      "path1": "service",
+      "path2": "chatbot"
+    }
+  ],
+  "sitelinks": [
+    {
+      "text": "How It Works",
+      "description1": "See the product walkthrough",
+      "description2": "Learn the setup steps",
+      "final_url": "https://example.com/product#how"
+    }
+  ],
+  "callouts": [
+    "Uses Your Business Info"
+  ],
+  "structured_snippets": [
+    {
+      "header": "Service catalog",
+      "values": [
+        "Website Chat",
+        "FAQ Automation",
+        "Customer Insights"
+      ]
+    }
+  ]
+}

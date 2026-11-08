@@ -1,0 +1,26 @@
+{
+  "customer_id": "1234567890",
+  "operations": [
+    {
+      "ad_group_operation": {
+        "update": {
+          "resource_name": "customers/1234567890/adGroups/111",
+          "status": "PAUSED"
+        },
+        "update_mask": "status"
+      }
+    },
+    {
+      "ad_group_criterion_operation": {
+        "create": {
+          "ad_group": "customers/1234567890/adGroups/111",
+          "status": "PAUSED",
+          "keyword": {
+            "text": "example keyword",
+            "match_type": "EXACT"
+          }
+        }
+      }
+    }
+  ]
+}

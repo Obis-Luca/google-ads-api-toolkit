@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-ads-api-toolkit"
+version = "0.1.0"
+description = "Google Ads API workflows and a generic SDK bridge for humans and agents"
+requires-python = ">=3.11"
+dependencies = ["google-ads>=35,<36"]
+
+[project.scripts]
+ads-toolkit = "ads_toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
